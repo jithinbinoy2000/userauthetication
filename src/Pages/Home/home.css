@@ -28,3 +28,31 @@
 .sub_para{
     color:#b3babb ;
 }
+/* -------------------card---------------------- */
+.card{
+    width:150px;
+    height:230px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+   background-color:  #8cf207;
+}
+.feature{
+    width: 300px;
+    display: flex;
+    border: solid;
+    border-color: #b3babb;
+    border-width: 1px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+    backdrop-filter: blur(600px);
+    background-color: #445c5d;
+}
+.btn:hover{
+    color: #ffff;
+    background-color: #549401;
+}

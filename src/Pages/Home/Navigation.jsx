@@ -8,7 +8,7 @@ function Navigation() {
              <a href='#'>D'Watch</a>
        </div>
         <ul className='list d-flex justify-content-evenly fw-medium  align-items-center'>
-            <li className='ms-2' ><a href='#' className='list_item'>Products</a></li>
+            <li className='ms-2' ><a href='products' className='list_item'>Products</a></li>
             <li className='ms-5'><a href='#' className='list_item'>About</a></li>
             <li className='ms-5'><a href='#' className='list_item'>Contact</a> </li>
             <li className='ms-5 me-5'><a href='#' className='list_item'>
