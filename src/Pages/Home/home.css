@@ -1,0 +1,30 @@
+
+.list{
+    list-style: none;
+    color: #000;
+}
+.brand_name>a {
+   color: #8cf207;
+   /* background-image: linear-gradient(45deg,#161f1f,#457678); */
+}
+.home{
+   background-image: linear-gradient(45deg,#161f1f,#457678);
+   height: 100vh;
+}
+.list_item{
+    color: rgb(255, 255, 255);
+    transition: .5s;
+
+}
+.list_item:hover{
+    text-decoration: underline;
+    text-decoration-color: #8cf207;
+    text-decoration-thickness:3px;
+    color: #e4e4e4;
+}
+.fa-cart-shopping:hover{
+    color: #549401;
+}
+.sub_para{
+    color:#b3babb ;
+}
