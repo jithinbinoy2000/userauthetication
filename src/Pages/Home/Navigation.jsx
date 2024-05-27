@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 function Navigation() {
+  const username= sessionStorage.getItem("username")
   return (
     <>
     <div className='d-flex justify-content-between'>
@@ -13,6 +14,7 @@ function Navigation() {
             <li className='ms-5'><a href='#' className='list_item'>Contact</a> </li>
             <li className='ms-5 me-5'><a href='#' className='list_item'>
             <i class="fa-solid fa-cart-shopping" style={{color:"#8cf207"}} ></i></a></li>
+            {/*    */}
         </ul>
     </div>
     </>

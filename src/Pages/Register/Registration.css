@@ -1,4 +1,41 @@
-a{
-    text-decoration: none;
+.input{
+    width:300px;
+    height: 8vh;
+    border:hidden;
+    border-color: transparent;
+    background-color:#f0efff;
+    border-radius: 8px;
+    box-shadow:#f0efff ;
+    color: #9995eb;
+}
+::placeholder{
+    color: #b3afff;
+}
+.button{
+    background-color:#4d47c3;
+    color: white;
+    box-shadow:#9995eb;
+}
+.button:hover{
+    background-color: #3931cb;
+}
+.loginbtn{
+    color: #3027ca;
+    translate: 100sms;
+}
+.loginbtn:hover{
+    color: #5e5aa6;
+    cursor: grab;
     
+    
+}
+.sign_img{
+    width:250px;
+}
+.icon_image{
+    width:25px;
+    
+}
+.icons{
+     
 }
