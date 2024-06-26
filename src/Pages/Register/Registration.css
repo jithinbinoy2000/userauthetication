@@ -25,7 +25,7 @@
 }
 .loginbtn:hover{
     color: #5e5aa6;
-    cursor: grab;
+    cursor:pointer;
     
     
 }
@@ -34,8 +34,5 @@
 }
 .icon_image{
     width:25px;
-    
-}
-.icons{
-     
+    cursor:pointer;    
 }

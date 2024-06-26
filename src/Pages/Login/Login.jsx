@@ -11,6 +11,9 @@ import { loginAPI } from '../../Services/allAPI';
 function Login() {
   const navigate =useNavigate()
   const [userData,setUserData]=useState({email:"",password:""})
+  const loginwithgoogle =()=>{
+    window.open("http://localhost:3000/auth/google/callback","_self")
+   }
 const handleLogiIn=async(e)=>{
   e.preventDefault();
   const {email,password}=userData;
@@ -73,7 +76,7 @@ const handleLogiIn=async(e)=>{
      </Form>
      <p className='mt-3' style={{color:"#c7c7c7"}}>or Continue with </p>
     <div className='d-flex flex-row '>
-       <img src="https://img.icons8.com/?size=256&id=17949&format=png" alt="google" className='icon_image'/>
+       <img src="https://img.icons8.com/?size=256&id=17949&format=png" alt="google" className='icon_image' onClick={loginwithgoogle}/>
        <img src="https://img.icons8.com/?size=256&id=uLWV5A9vXIPu&format=png" alt="facebook" className='icon_image ms-2 me-2' />
        <img src="https://img.icons8.com/?size=256&id=95294&format=png" alt="apple" className='icon_image' />
     </div>

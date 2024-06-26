@@ -31,10 +31,12 @@ function Registration() {
     //email validation
     if(email.match("[A-Za-z0-9\._%+\-]+@[A-Za-z0-9\.\-]+\.[A-Za-z]{2,}")){
       setValidEmail(true)
+      //api call - registration
       try{
         const response =await registerAPI(userData)
-        console.log(response.status);
+        // console.log(response.status);
         if(response.status===200){
+          //register new user
           toast.success(`${response.data.username} has succesfully registered`)
          setUserData({username:'',email:'',password:''})
          setTimeout(() => {
@@ -43,7 +45,7 @@ function Registration() {
        
         }
         else {
-        //  alert("exsisting user please login")
+        // existing user
           toast.info("exsisting user please login ")
          setTimeout(() => {
           navigate("/login");
